@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="../IMAGE/logo-image.png">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+	<link rel="stylesheet" href="../themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="/JQUERY/jquery.min.js"></script>
+    <script>
+        $(() => {
+            $("#header").load("./Header.html");
+            $("#menu").load("./Menu.html");
+            $("#footer").load("./Footer.html");
+        }) 
+    </script>
+</head>
+<body>
+    <div id="container">
+		<div id="header"></div>
+
+		<div id="menu"></div>
+
+		<div id="slide">
+			<div class="item" style="background-image: url(../IMAGE/slideshow/6.jpg);">
+				<div class="content">
+					<!-- <div class="book-name">A good book is a wonderful friend that you can carry with you for a lifetime.</div> -->
+					<div class="book-des">A good book is a wonderful friend that you can carry with you for a lifetime.</div>
+				</div>	
+			</div>
+
+			<div class="item" style="background-image: url(../IMAGE/slideshow/7.jpg);">
+				<div class="content">
+					<!-- <div class="book-name">Book-programing</div> -->
+					<div class="book-des">A person who doesn't read lives only one life, but a reader lives many lives.</div>
+				</div>
+			</div>
+
+			<div class="item" style="background-image: url(../IMAGE/slideshow/8.jpg);">
+				<div class="content">
+					<!-- <div class="book-name">Book-programing</div> -->
+					<div class="book-des">Books are the foundation of the best things in life.</div>
+				</div>
+			</div>
+
+			<div class="item" style="background-image: url(../IMAGE/slideshow/9.jpg);">
+				<div class="content">
+					<!-- <div class="book-name">Book-programing</div> -->
+					<div class="book-des">Books not only give us stories, but also give us ways of thinking and living.</div>
+				</div>
+			</div>
+
+			<div class="item" style="background-image: url(../IMAGE/slideshow/10.jpg);">
+				<div class="content">
+					<!-- <div class="book-name">Book-programing</div> -->
+					<div class="book-des">Books are the path to freedom, independence, and aspiration.</div>
+				</div>
+			</div>
+			<div class="buttons">
+				<button id="prev" class="ti-angle-left"></button>
+				<button id="next" class="ti-angle-right"></button>
+			</div>
+		</div>
+
+		<div id="main">
+			<div class="headline">
+				<p>outstanding books</p>
+			</div>
+			
+			<div class="wrapper">
+				<div class="container">
+					<div class="book-item">
+						<img src="../IMAGE/bestseller/tab-item3.jpg" alt="">
+						<button type="button" class="add-to-cart" data-product-tile="add-to-cart" tabindex="0">Add to Cart</button>
+						<div class="book-disc">
+							<h3 class="book-title">Tips Of Simple Lifestyle</h3>
+							<p class="author">Bratt Smith</p>
+							<div class="price">$ 40.00</div>
+						</div>
+					</div>
+	
+					<div class="book-item">
+						<img src="../IMAGE/bestseller/tab-item1.jpg" alt="">
+						<button type="button" class="add-to-cart" data-product-tile="add-to-cart" tabindex="0">Add to Cart</button>
+						<div class="book-disc">
+							<h3 class="book-title">Portrait Photography</h3>
+							<p class="author">Adam Silber</p>
+							<div class="price">$ 40.00</div>
+						</div>
+					</div>
+	
+					<div class="book-item">
+						<img src="../IMAGE/bestseller/tab-item2.jpg" alt="">
+						<button type="button" class="add-to-cart" data-product-tile="add-to-cart" tabindex="0">Add to Cart</button>
+						<div class="book-disc">
+							<h3 class="book-title">Once Upon A Time</h3>
+							<p class="author">Klien Marry</p>
+							<div class="price">$ 35.00</div>
+						</div>
+					</div>
+	
+					<div class="book-item">
+						<img src="../IMAGE/bestseller/tab-item4.jpg" alt="">
+						<button type="button" class="add-to-cart" data-product-tile="add-to-cart" tabindex="0">Add to Cart</button>
+						<div class="book-disc">
+							<h3 class="book-title">Just Felt From Outside</h3>
+							<p class="author">Nicole Wilson</p>
+							<div class="price">$ 40.00</div>
+						</div>
+					</div>
+	
+					<div class="book-item">
+						<img src="../IMAGE/bestseller/tab-item5.jpg" alt="">
+						<button type="button" class="add-to-cart" data-product-tile="add-to-cart" tabindex="0">Add to Cart</button>
+						<div class="book-disc">
+							<h3 class="book-title">Peaceful Enlightment</h3>
+							<p class="author">Marmik Lama</p>
+							<div class="price">$ 40.00</div>
+						</div>
+					</div>
+	
+					<div class="book-item">
+						<img src="../IMAGE/bestseller/tab-item6.jpg" alt="">
+						<button type="button" class="add-to-cart" data-product-tile="add-to-cart" tabindex="0">Add to Cart</button>
+						<div class="book-disc">
+							<h3 class="book-title">Great Travel At Desert</h3>
+							<p class="author">Sanchit Howdy</p>
+							<div class="price">$ 40.00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="saleoff">
+            <div class="box-left">
+                <h1>
+                    <span style="text-transform: uppercase;">Saleoff Up To</span>
+                    <span>50%</span>
+                </h1>
+            </div>
+            <div class="box-right"></div>
+        </div>
+
+		<div id="comment">
+            <h2 style="text-transform: uppercase;font-size: 52px;text-shadow: #CDC9A5;opacity: 0.8;">Customer's Feedbacks</h2>
+            <div id="comment-body">
+                <div class="prev" style="transform: translate(460px, -180px); z-index: 10;">
+                    <a href="#">
+                        <img src="../IMAGE/bestseller/prev.png" alt="" style="transform: rotate(90deg);">
+                    </a>
+                </div>
+                <ul id="list-comment">
+                    <li class="item-cmt">
+                        <div class="avatar">
+                            <img src="../IMAGE/bestseller/obama.jpg" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Barack Obama</div>
+
+                        <div class="text">
+                            <p>The vast selection of books available on your site is impressive, and I was thrilled to find titles that I had been searching for elsewhere. The checkout process was quick and hassle-free, and my order arrived promptly and in excellent condition.</p>
+                        </div>
+                    </li>
+                    <li class="item-cmt">
+                        <div class="avatar">
+                            <img src="../IMAGE/bestseller/bidenn.jpg" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Joe Biden</div>
+
+                        <div class="text">
+                            <p>The vast selection of books available on your site is impressive, and I was thrilled to find titles that I had been searching for elsewhere. The checkout process was quick and hassle-free, and my order arrived promptly and in excellent condition.</p>
+                        </div>
+                    </li>
+                    <li class="item-cmt">
+                        <div class="avatar">
+                            <img src="../IMAGE/bestseller/butin.jpg" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Vladimir Putin</div>
+
+                        <div class="text">
+                            <p>
+								Your website is user-friendly and easy to navigate, making it easy to find the books that I am looking for. I appreciate the range of categories and the ability to search by keyword, which has helped me discover new authors and titles that I might not have found otherwise.							</p>
+                        </div>
+                    </li>
+					<li class="item-cmt">
+                        <div class="avatar">
+                            <img src="../IMAGE/bestseller/donaltrump.jpg" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="../IMAGE/bestseller/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Donald Trump</div>
+
+                        <div class="text">
+                            <p>
+								Your website is user-friendly and easy to navigate, making it easy to find the books that I am looking for. I appreciate the range of categories and the ability to search by keyword, which has helped me discover new authors and titles that I might not have found otherwise.							</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="next" style="transform: translate(-472px, 184px);"> 
+                    <a href="#">
+                        <img src="../IMAGE/bestseller/next.png" alt="" style="transform: rotate(90deg);">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+		<div id="footer"></div>
+	</div>
+
+	<script src="../JS/comment.js"></script>
+	<script src="../JS/script.js"></script>
+</body>
+</html>
