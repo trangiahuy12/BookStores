@@ -1,0 +1,128 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  /* border-radius: 25px; */
+  transition: .4s ease-in-out;
+}
+
+.form:hover {
+  /* transform: scale(1.02); */
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.field {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.button1:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.3);
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  margin: 0 10px;
+  transition-duration: 0.5s;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.3);
+}
+.button2 a {
+  color: white;
+  text-decoration: none;
+}
+.button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.3);
+}
+
+#username-error, #password-error, #confirm_password-error, #email-error {
+  white-space: nowrap;
+  left: 240px;
+  position: relative;
+}
